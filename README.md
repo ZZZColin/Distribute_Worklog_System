@@ -76,4 +76,14 @@
 
                * 运行结束：标记程序运行结束
 
+注意事项
+
+     1. 请确保Master Log和Individual Log格式一致，且列名位于表格第一行
+     
+     2. 请确保数据存储于Individual Log的第一个Tab
+     
+     3. 尽量避免手动修改Master Log的数据区域，以免产生日期列为空的数据行
+     
+     4. 不要修改Master Log的任何Tab名称
+
 
