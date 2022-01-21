@@ -61,7 +61,11 @@
                * 逐条信息：用于显示每条数据的Overwrite情况
 
                     成功，如Row: 10, Key: 123 Overwritten On Row 15
-
+                    
+                    行号格式错误，按空格分隔出的行号为空或不是数字格式，如Is Empty Or Is Not Number Format: xxx
+                    
+                    超出数据范围，按空格分隔出的行号超出了当前读取的数据范围，如Not Within Data Range: 10000
+                    
                     键缺失，键在Master Log上不存在，如Row: 10, Key: 123 Not Exist In Tracking Log
 
                     键重复，Master Log上存在多条相同键，如Row: 10, Key: 123 Found On Multi Rows 15，20, Please Check
