@@ -47,6 +47,8 @@
 >>>>>>>键重复，如Row: 10, Value: 123 Duplicate On Row 15
 
 >>>>>* 汇总信息：用于显示当前Individual Log Update的总数，如10 Record(s) Updated In Total.
+
+>>>>>* 运行结束：标记程序运行结束
         
 >>>>Overwrite：
 
@@ -67,5 +69,7 @@
 >>>>>>>重复Overwrite，该键已在本次运行的早些时候被覆写，如Row: 10, Key: 123 Skipped As Duplicate Overwrite On Row 15, Please Check
 
 >>>>>* 汇总信息：用于显示当前Individual Log Overwrite的总数，如10 Record(s) Overwritten In Total.
+
+>>>>>* 运行结束：标记程序运行结束
 
 
