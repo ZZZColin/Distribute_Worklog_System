@@ -48,4 +48,24 @@
 
 >>>>>* 汇总信息：用于显示当前Individual Log Update的总数，如10 Record(s) Updated In Total.
         
-        
+>>>>Overwrite：
+
+>>>>>* 文件路径：当前读取的文件完全路径
+
+>>>>>* 文件修改日期：当前读取的文件的最新修改日期（用于判断程序读取文件版本是否最新。当Individual Log位于公共磁盘时，可能出现文件保存不同步的问题）
+
+>>>>>* 读取数据范围：用于标识读取文件的数据范围，由环境变量中的Column Count提供列数，Individual Log中日期所在列中从下往上第一个非空单元格所在行决定行数，如Data Range: A1:J100
+
+>>>>>* 逐条信息：用于显示每条数据的Overwrite情况
+
+>>>>>>>成功，如Row: 10, Key: 123 Overwritten On Row 15
+
+>>>>>>>键缺失，键在Master Log上不存在，如Row: 10, Key: 123 Not Exist In Tracking Log
+
+>>>>>>>键重复，Master Log上存在多条相同键，如Row: 10, Key: 123 Found On Multi Rows 15，20, Please Check
+
+>>>>>>>重复Overwrite，该键已在本次运行的早些时候被覆写，如Row: 10, Key: 123 Skipped As Duplicate Overwrite On Row 15, Please Check
+
+>>>>>* 汇总信息：用于显示当前Individual Log Overwrite的总数，如10 Record(s) Overwritten In Total.
+
+
