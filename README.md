@@ -20,7 +20,7 @@
 
      ![Capture](https://user-images.githubusercontent.com/49432881/150459895-a0ec079b-dfc3-4fb5-a8f1-66d182744ab2.PNG)
      
-     FolderPath：用于存储Individual Log所在文件夹路径
+     FolderPath：用于存储Individual Log所在文件夹路径，Master Log将读取该文件夹中的每一个.xlsx类型文件
      
      Date Column：用于存储分表日期所在列
      
