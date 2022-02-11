@@ -1,6 +1,7 @@
 # Distribute_Worklog_System
 
 分布式工作表适用于缺少SharePoint权限且规模较大的队伍实现Task Info的同步，规避了使用Excel ShareWorkbook功能带来的频繁同步导致Excel假死造成数据丢失的问题。
+Distribute Worklog System is designed for large-scale team who don't have access to SharePoint but still need sync info from multi excel files, comparing with Excel Built-In ShareWorkbook function, this system could avoid excel crash in being updated by multi users.
 
 功能简介：
 
